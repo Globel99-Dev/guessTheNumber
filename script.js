@@ -27,7 +27,7 @@ document.querySelector('.check').addEventListener('click', function () {
       // When player wins.
     } else if (guess === randomNumber) {
       displayMessage(`(●'◡'●) You Win`);
-      document.querySelector('body').style.backgroundColor = '#60b347';
+      document.querySelector('body').style.backgroundColor = '#0398fc';
       document.querySelector('.number').style.width = '30rem';
       document.querySelector('.number').textContent = randomNumber;
       if (score > highScore) {

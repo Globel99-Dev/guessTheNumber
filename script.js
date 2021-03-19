@@ -24,6 +24,7 @@ document.querySelector('.check').addEventListener('click', function () {
       displayMessage(`ᓚᘏᗢ No number`);
       score -= 1;
       displayScore(score);
+alert('Digite un numero');
       // When player wins.
     } else if (guess === randomNumber) {
       displayMessage(`(●'◡'●) You Win`);

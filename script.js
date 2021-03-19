@@ -21,10 +21,10 @@ document.querySelector('.check').addEventListener('click', function () {
   if (score > 1) {
     // When there is no input
     if (!guess) {
+     alert("Digite un numero");
       displayMessage(`ᓚᘏᗢ No number`);
       score -= 1;
-      displayScore(score);
-alert('Digite un numero');
+      alert('Digite un numero');
       // When player wins.
     } else if (guess === randomNumber) {
       displayMessage(`(●'◡'●) You Win`);

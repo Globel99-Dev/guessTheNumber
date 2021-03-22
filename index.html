@@ -9,24 +9,28 @@
   </head>
   <body>
     <header>
-      <h1>Guess My Number!</h1>
-      <p class="between">(Between 1 and 20)</p>
-      <button class="btn again">Again!</button>
+      <h1>Indovina il numero!</h1>
+      <p class="between">(Tra 1 e 20)</p>
+      <button class="btn again">Ancora!</button>
       <div class="number">?</div>
     </header>
     <main>
+      <canvas class="fireworks"></canvas>
       <section class="left">
         <input type="number" class="guess" />
-        <button class="btn check">Check!</button>
+        <button class="btn check">Vai!</button>
       </section>
       <section class="right">
-        <p class="message">Start guessing...</p>
-        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="message">Iniziamo...</p>
+        <p class="label-score">💯 Punti: <span class="score">20</span></p>
         <p class="label-highscore">
-          🥇 Highscore: <span class="highscore">0</span>
+          🥇 Punteggio: <span class="highscore">0</span>
         </p>
       </section>
     </main>
     <script src="script.js"></script>
+    <div class="overlay hidden"></div>
+    <p class="noNumber">DIGITA UN NUMERO!</p>>
+  </div>
   </body>
 </html>
